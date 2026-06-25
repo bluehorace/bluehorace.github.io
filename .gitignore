@@ -1,2 +1,5 @@
 audits/
 design-qa.md
+node_modules
+.artifact-runtime/
+outputs/

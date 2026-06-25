@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Horace 設計作品詳情">
+  <title>設計作品 — Horace</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要內容</a>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark">H</span><span>Horace</span></a>
+      <a class="button button-small case-back" href="../index.html#work">返回設計作品</a>
+    </div>
+  </header>
+
+  <main id="main" aria-busy="true">
+    <section class="case-hero">
+      <div class="container">
+        <p class="eyebrow" id="projectMeta">Design project</p>
+        <h1 id="projectTitle">作品載入中</h1>
+        <p class="case-summary" id="projectSummary"></p>
+        <div class="case-actions">
+          <a class="button button-primary" id="projectBehance" href="#" target="_blank" rel="noopener">View on Behance <span aria-hidden="true">↗</span></a>
+        </div>
+        <dl class="case-facts">
+          <div><dt>Type</dt><dd id="projectType"></dd></div>
+          <div><dt>Disciplines</dt><dd id="projectDisciplines"></dd></div>
+          <div><dt>Tools</dt><dd id="projectTools"></dd></div>
+          <div><dt>Source</dt><dd>Published on Behance</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <figure class="case-cover"><img id="projectImage" src="../assets/behance/life-is-great.webp" alt=""></figure>
+
+    <section class="case-section">
+      <div class="container case-layout">
+        <h2>作品概念</h2>
+        <div class="case-body">
+          <p id="projectConcept"></p>
+          <h3>設計方向</h3>
+          <ul id="projectDirections"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section">
+      <div class="container case-layout">
+        <h2>設計內容</h2>
+        <div class="case-body">
+          <p id="projectContent"></p>
+          <div class="project-detail-grid" id="projectDetails"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section">
+      <div class="container case-layout">
+        <h2>視覺呈現</h2>
+        <div class="case-body">
+          <p id="projectPresentation"></p>
+          <a class="text-link case-behance-link" id="projectBehanceBottom" href="#" target="_blank" rel="noopener">前往 Behance 查看完整作品 <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="next-case">
+    <a class="container" href="../index.html#work">
+      <div><p class="eyebrow">Back to work</p><h2>查看其他設計作品</h2></div>
+      <span aria-hidden="true">→</span>
+    </a>
+  </footer>
+
+  <script src="portfolio-config.js"></script>
+  <script src="content-loader.js"></script>
+  <script src="project-page.js"></script>
+</body>
+</html>

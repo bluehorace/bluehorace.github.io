@@ -1,0 +1,280 @@
+window.additionalBehanceProjects = [
+  { number: "13", id: "so-beauty-app", category: "brand", meta: "Brand Visual", title: "So Beauty app", subtitle: "品牌形象視覺規劃", image: "13-so-beauty-app.jpg", behance: "https://www.behance.net/gallery/67475171/So-Beauty-app-" },
+  { number: "14", id: "pixstyleme-redesign", category: "brand", meta: "Brand Identity", title: "PIXstyleMe", subtitle: "Corporate Identity Redesign", image: "14-pixstyleme.jpg", behance: "https://www.behance.net/gallery/67404213/PIXstyleMe-Corporate-identity-redesign" },
+  { number: "15", id: "clean-bottle", category: "visual", meta: "Photo Retouching", title: "Clean Bottle", subtitle: "Photo Retouching", image: "15-clean-bottle.jpg", behance: "https://www.behance.net/gallery/67206207/Clean-Bottle-Photo-retouching" },
+  { number: "16", id: "dreams-become-reality", category: "brand", meta: "Product Design", title: "Dreams Become Reality", subtitle: "產品設計", image: "16-dreams-become-reality.jpg", behance: "https://www.behance.net/gallery/67205065/Dreams-Become-Reality-" },
+  { number: "17", id: "im-meme-tictoc", category: "web", meta: "Campaign Website", title: "I'M MEME TIC!TOC!", subtitle: "活動網站視覺規劃", image: "17-im-meme.jpg", behance: "https://www.behance.net/gallery/67184017/IM-MEME-TICTOC-" },
+  { number: "18", id: "head-shoulders", category: "web", meta: "Campaign Website", title: "head&shoulders", subtitle: "活動網站視覺規劃", image: "18-head-shoulders.jpg", behance: "https://www.behance.net/gallery/67180623/head-shoulders-" },
+  { number: "19", id: "chinese-new-year-2017", category: "web", meta: "Festival Campaign", title: "2017 Chinese New Year", subtitle: "活動網站視覺規劃", image: "19-chinese-new-year.jpg", behance: "https://www.behance.net/gallery/67182663/2017-Chinese-New-Year-" },
+  { number: "20", id: "oh-its-halloween", category: "visual", meta: "Event Visual", title: "Oh! It's HALLOWEEN", subtitle: "節日活動場景設計", image: "20-halloween.jpg", behance: "https://www.behance.net/gallery/67141785/Oh-Its-HALLOWEEN-" },
+  { number: "21", id: "japan-endless-discovery", category: "web", meta: "Travel Campaign", title: "Japan Endless Discovery", subtitle: "活動網站視覺規劃", image: "21-japan-endless-discovery.jpg", behance: "https://www.behance.net/gallery/67172367/Japan-Endless-Discovery-" },
+  { number: "22", id: "tigerair-nagoya", category: "web", meta: "Travel Campaign", title: "tigerair to Nagoya!", subtitle: "活動網站視覺規劃", image: "22-tigerair-nagoya.jpg", behance: "https://www.behance.net/gallery/67165885/tigerair-to-go-toNagoya-" },
+  { number: "23", id: "explore-macau", category: "web", meta: "Travel Campaign", title: "Let's explore Macau!", subtitle: "活動網站視覺規劃", image: "23-explore-macau.jpg", behance: "https://www.behance.net/gallery/67170343/Hey-Lets-explore-Macau-" },
+  { number: "24", id: "talk-about-fashion", category: "visual", meta: "Environmental Graphic", title: "Let's talk about Fashion!", subtitle: "走道牆面設計", image: "24-fashion-wall.jpg", behance: "https://www.behance.net/gallery/67045899/Lets-talk-about-Fashion-" },
+  { number: "25", id: "pets-playground", category: "visual", meta: "Environmental Graphic", title: "Pets playground", subtitle: "會議室牆面設計", image: "25-pets-playground.jpg", behance: "https://www.behance.net/gallery/65392389/Pets-playground-" },
+  { number: "26", id: "album-style-blog", category: "ui", meta: "Blog UI", title: "Album Style Blog", subtitle: "部落格樣式設計", image: "26-album-style-blog.jpg", behance: "https://www.behance.net/gallery/64580473/Album-Style-Blog-" },
+  { number: "27", id: "happix-wall", category: "visual", meta: "Environmental Graphic", title: "Happix can tell u everything!", subtitle: "辦公室牆面設計", image: "27-happix-wall.jpg", behance: "https://www.behance.net/gallery/67112817/Happix-can-tell-u-everything-" },
+  { number: "28", id: "summer-hongkong", category: "web", meta: "Travel Campaign", title: "Summer HongKong", subtitle: "香港旅遊局活動網站視覺", image: "28-summer-hongkong.jpg", behance: "https://www.behance.net/gallery/61814401/Summer-HongKong-" },
+  { number: "29", id: "waterfall-layout-blog", category: "ui", meta: "Blog UI", title: "Waterfall Layout Blog", subtitle: "部落格樣式設計", image: "29-waterfall-blog.jpg", behance: "https://www.behance.net/gallery/64579281/Waterfall-Layout-Blog-" },
+  { number: "30", id: "stylish-blog", category: "ui", meta: "Blog UI", title: "Stylish Blog", subtitle: "部落格樣式設計", image: "30-stylish-blog.jpg", behance: "https://www.behance.net/gallery/64533941/Stylish-Blog-" },
+  { number: "31", id: "explore-more-blog", category: "ui", meta: "Blog UI", title: "Explore more", subtitle: "部落格樣式設計", image: "31-explore-more.jpg", behance: "https://www.behance.net/gallery/64524763/Explore-more-" },
+  { number: "32", id: "four-seasons-blog", category: "ui", meta: "Blog UI", title: "Four Seasons", subtitle: "部落格樣式設計", image: "32-four-seasons.jpg", behance: "https://www.behance.net/gallery/64485983/Four-Seasons-" },
+  { number: "33", id: "pixnet-social-summit", category: "visual", meta: "Event Identity", title: "PIXNET Social Summit 1st", subtitle: "活動視覺與展場規劃", image: "33-social-summit.jpg", behance: "https://www.behance.net/gallery/64389877/PIXNET-Social-Summit-1st-" },
+  { number: "34", id: "pixnet-hackathon", category: "visual", meta: "Event Identity", title: "PIXNET HACKATHON 4th", subtitle: "活動網站與展場視覺", image: "34-hackathon.jpg", behance: "https://www.behance.net/gallery/63670907/PIXNET-HACKATHON-4th-" },
+  { number: "35", id: "triangle-ocean-world", category: "visual", meta: "Photo Retouching", title: "TriangleArt of ocean world", subtitle: "Photo Retouching", image: "35-triangle-ocean.jpg", behance: "https://www.behance.net/gallery/64420515/TriangleArt-of-ocean-world-Photo-retouching" },
+  { number: "36", id: "whale-under-the-sea", category: "visual", meta: "Photo Retouching", title: "Whale under the sea", subtitle: "Photo Retouching", image: "36-whale-sea.jpg", behance: "https://www.behance.net/gallery/63426529/Whale-under-the-sea-Photo-retouching" },
+  { number: "37", id: "rhinos-castle-world", category: "visual", meta: "Photo Retouching", title: "Rihno's castle world", subtitle: "Photo Retouching", image: "37-rhino-castle.jpg", behance: "https://www.behance.net/gallery/63401953/Rihnos-castle-world-Photo-retouching" },
+  { number: "38", id: "elk-in-the-cloud", category: "visual", meta: "Photo Retouching", title: "Elk in the cloud", subtitle: "Photo Retouching", image: "38-elk-cloud.jpg", behance: "https://www.behance.net/gallery/63400303/Elk-in-the-cloud-Photo-retouching" },
+  { number: "39", id: "corona-waterfall", category: "visual", meta: "Photo Retouching", title: "Corona Waterfall", subtitle: "Photo Retouching", image: "39-corona-waterfall.jpg", behance: "https://www.behance.net/gallery/63398661/Corona-Waterfall-Photo-retouching" },
+  { number: "40", id: "luma", category: "brand", meta: "Brand Visual", title: "LUMA 露瑪生活美學", subtitle: "品牌形象視覺規劃", image: "40-luma.jpg", behance: "https://www.behance.net/gallery/62638195/LUMA-" },
+  { number: "41", id: "bear-love-plant", category: "brand", meta: "Brand Identity", title: "熊愛禮植栽", subtitle: "品牌形象規劃與名片設計", image: "41-bear-plant.jpg", behance: "https://www.behance.net/gallery/62624709/_" },
+  { number: "42", id: "pixchelin", category: "brand", meta: "Brand Visual", title: "痞其林 PIXCHELIN", subtitle: "品牌形象視覺規劃", image: "42-pixchelin.jpg", behance: "https://www.behance.net/gallery/61809215/PIXCHELIN-" },
+  { number: "43", id: "soyummy-brand", category: "brand", meta: "App Branding", title: "搜 Yummy app", subtitle: "品牌形象視覺規劃", image: "43-soyummy-brand.jpg", behance: "https://www.behance.net/gallery/61860301/Yummy-app-" },
+  { number: "44", id: "soyummy-app", category: "ui", meta: "App UI", title: "SoYummy APP", subtitle: "Restaurant Discovery App", image: "44-soyummy-app.jpg", behance: "https://www.behance.net/gallery/62867299/SoYummy-APP-helping-you-looking-for-restaurant" },
+  { number: "45", id: "pixgoods-rwd", category: "ui", meta: "E-commerce UI", title: "PIXgoods", subtitle: "E-commerce RWD UI Design", image: "45-pixgoods-rwd.jpg", behance: "https://www.behance.net/gallery/62904197/PIXgoods-e-commerce-RWD-UI-design" }
+];
+
+const behanceConcepts = {
+  "so-beauty-app": "以美妝與時尚內容為核心，為 So Beauty app 規劃品牌形象與視覺語言，透過色彩、圖像與版面建立一致且具有辨識度的數位品牌感受。",
+  "pixstyleme-redesign": "重新整理 PIXstyleMe 的企業識別，從品牌定位出發調整標誌、色彩與應用方式，讓時尚內容平台呈現更一致、成熟且容易延伸的形象。",
+  "clean-bottle": "以 Clean Bottle 為主題的商業影像後製練習，著重產品質感、光影與背景氛圍的整合，讓單一物件形成乾淨而具有廣告感的視覺焦點。",
+  "dreams-become-reality": "以「Dreams Become Reality」為概念發展產品視覺，結合時尚語氣、圖像構成與商品呈現，將抽象的夢想意象轉化為可被看見的設計。",
+  "im-meme-tictoc": "為 I'M MEME TIC!TOC! 規劃活動網站視覺，延伸美妝產品的色彩與年輕語氣，整合廣告主視覺、網頁介面與活動資訊。",
+  "head-shoulders": "以 head&shoulders 品牌與產品溝通為基礎規劃活動網站，透過清楚的產品焦點、品牌色彩與資訊層級建立完整的 campaign 體驗。",
+  "chinese-new-year-2017": "以 2017 農曆新年為主題發展節慶活動網站，將年節符號、喜氣色彩與數位互動語言整合為具有節日氛圍的視覺體驗。",
+  "oh-its-halloween": "以萬聖節為主題規劃活動場景，透過角色、色彩與空間圖像營造帶有趣味與想像力的節慶氛圍，讓視覺能自然延伸到現場環境。",
+  "japan-endless-discovery": "以日本旅遊探索為核心規劃活動網站視覺，運用目的地影像、旅遊資訊與品牌語氣，引導使用者感受不同地區的旅行魅力。",
+  "tigerair-nagoya": "以虎航名古屋旅遊為主題發展活動網站，將航線溝通、目的地特色與輕快視覺整合，讓旅遊資訊更容易被探索。",
+  "explore-macau": "以「Let's explore Macau!」為概念規劃旅遊活動網站，透過澳門景點、美食與城市色彩，建立活潑且容易瀏覽的目的地體驗。",
+  "talk-about-fashion": "將時尚作為空間敘事主題，以人物、圖像與排版規劃走道牆面，讓原本單純的通行空間成為具有品牌個性的視覺接觸點。",
+  "pets-playground": "以「電修的世界，將你的無限想像化為可能」為概念，將寵物、遊樂與想像力轉化為會議室牆面視覺，創造輕鬆而富有故事感的空間。",
+  "album-style-blog": "從「用最少的設計達到最大的提升」出發，以相簿式編排重新整理部落格內容，讓圖片成為主角，同時維持簡潔、直覺的閱讀體驗。",
+  "happix-wall": "以 Happix 角色與品牌故事規劃辦公室牆面，結合插畫、資訊與空間節奏，讓工作環境也能傳達團隊文化與品牌個性。",
+  "summer-hongkong": "PIXNET 與香港旅遊局合作的活動網站，透過部落客內容整理香港旅遊資訊，幫助旅客更快速找到靈感，讓行程規劃更有趣也更容易。",
+  "waterfall-layout-blog": "以瀑布流版型重新組織部落格內容，讓不同尺寸的圖片與文章自然排列，強化探索感並提升大量視覺內容的瀏覽效率。",
+  "stylish-blog": "從持續分析與調整的設計過程出發，探索更具時尚感的部落格樣式，透過字級、留白與圖文比例改善整體閱讀品質。",
+  "explore-more-blog": "拋開傳統部落格框架，以更現代、易讀的方式重新安排文章、圖片與導覽，鼓勵使用者自然探索更多內容。",
+  "four-seasons-blog": "以四季變化作為視覺靈感，透過色彩、圖片與版面節奏為部落格加入驚喜感，讓內容在不同主題下仍保有一致的閱讀體驗。",
+  "pixnet-social-summit": "為首屆 PIXNET Social Summit 規劃活動識別與展場視覺，將社群、交流與內容影響力轉化為可延伸至舞台與空間的整體語言。",
+  "pixnet-hackathon": "為第四屆 PIXNET HACKATHON 統整活動網站與展場視覺，以科技、協作與快速創作為主軸，建立從線上宣傳到現場體驗的一致形象。",
+  "triangle-ocean-world": "以海洋世界為題的 Triangle Art 影像後製練習，透過幾何切割、素材合成與色調控制，將自然景象轉化為帶有幻想感的視覺作品。",
+  "whale-under-the-sea": "以海底鯨魚為主題的超現實影像合成，透過尺度、光線與水下氛圍的處理，創造寧靜而具有故事感的奇想場景。",
+  "rhinos-castle-world": "將犀牛與城堡置入同一個幻想世界，運用影像合成、空間比例與光影統整，探索現實素材如何形成超現實敘事。",
+  "elk-in-the-cloud": "以雲端中的麋鹿為核心意象，結合自然素材、柔和色調與夢境般的空間，呈現輕盈且帶有詩意的影像後製練習。",
+  "corona-waterfall": "以 Corona 與瀑布景觀發展廣告式影像合成，透過產品比例、環境光線與水流動勢，建立清涼且具有視覺衝擊的畫面。",
+  "luma": "為 LUMA 露瑪生活美學規劃品牌形象，從生活風格與美學定位出發，建立能延伸至不同應用的色彩、圖像與視覺語氣。",
+  "bear-love-plant": "為熊愛禮植栽規劃品牌形象與名片，將植物、送禮與溫度感融入識別設計，建立親切且容易記憶的品牌印象。",
+  "pixchelin": "痞其林是 PIXNET 旗下推廣美食的部落格品牌，希望幫助使用者找到喜愛的餐廳；識別以美食探索為核心，建立親切且具有辨識度的視覺形象。",
+  "soyummy-brand": "為搜 Yummy app 規劃品牌形象，將餐廳搜尋、美食探索與行動使用情境整合成清楚、活潑且適合數位介面的視覺語言。",
+  "soyummy-app": "以協助使用者尋找餐廳為核心的 App 介面設計，整理搜尋、探索與餐廳資訊，讓使用者能更快速做出用餐選擇。",
+  "pixgoods-rwd": "為 PIXgoods 電商規劃響應式 UI，將商品瀏覽、品牌視覺與跨裝置版面整合，讓購物內容在桌面與行動裝置上都保持清楚一致。"
+};
+
+window.additionalBehanceProjects.forEach(project => {
+  project.concept = behanceConcepts[project.id];
+});
+
+const behanceProjectDetails = {
+  "so-beauty-app": {
+    directions: ["以柔和而具時尚感的色彩建立美妝品牌印象。", "讓品牌圖形能延伸至 App、內容與宣傳素材。", "透過一致字體與版面維持數位接觸點的辨識度。"],
+    content: "視覺規劃圍繞美妝、流行與行動內容展開，整理品牌標誌、主色、輔助圖形及影像風格，讓 So Beauty 在介面與行銷畫面中呈現一致的年輕語氣。",
+    details: [["Brand Visual","美妝品牌語氣"],["App Identity","數位介面延伸"],["Graphic System","色彩與圖形規則"]],
+    presentation: "作品以品牌識別與行動情境並列展示，呈現視覺元素進入 App 與宣傳素材後的整體一致性。"
+  },
+  "pixstyleme-redesign": {
+    directions: ["簡化既有識別，提升小尺寸與數位環境的辨識度。", "以時尚內容平台的定位調整色彩與排版語氣。", "建立能延伸至網站、社群與品牌物件的應用系統。"],
+    content: "此案重新梳理 PIXstyleMe 的企業識別，透過標誌比例、色彩與字體關係，讓品牌從單一圖像轉為可持續使用的視覺系統，並貼近時尚內容的俐落感。",
+    details: [["Identity Redesign","識別更新"],["Fashion Media","時尚內容定位"],["Applications","跨媒介應用"]],
+    presentation: "以新舊識別、標誌結構與實際應用展示改版方向，讓品牌更新的邏輯與延展性更容易被理解。"
+  },
+  "clean-bottle": {
+    directions: ["以乾淨構圖突出瓶身輪廓與材質。", "統一產品、背景與反射光線的方向。", "利用冷暖與明暗對比建立商業廣告質感。"],
+    content: "影像後製以產品為唯一視覺中心，重新處理素材邊緣、透明質感、陰影與環境光，使瓶身自然融入場景，同時保留清爽、精準的商品印象。",
+    details: [["Retouching","產品影像後製"],["Lighting","光影與反射"],["Composition","廣告構圖"]],
+    presentation: "作品透過完成畫面與細節呈現產品合成效果，重點可從瓶身質感、光線銜接與背景整合中看見。"
+  },
+  "dreams-become-reality": {
+    directions: ["以夢境意象建立產品的情緒主題。", "結合時尚圖像與商品比例形成主視覺焦點。", "讓包裝與宣傳畫面延續相同的概念語言。"],
+    content: "產品設計從「夢想成真」的抽象概念出發，運用圖像合成、色彩與材質表現，將情緒轉化為可應用於商品與宣傳畫面的視覺形式。",
+    details: [["Product Concept","概念商品"],["Visual Story","夢境敘事"],["Graphic Application","包裝與宣傳"]],
+    presentation: "畫面以產品、情境與視覺應用共同呈現，讓概念如何從一句主題發展成完整商品形象更加清楚。"
+  },
+  "im-meme-tictoc": {
+    directions: ["延伸產品色彩與包裝元素建立活動主視覺。", "以明確層級整理商品特色與活動資訊。", "讓網站模組維持年輕、活潑的美妝品牌語氣。"],
+    content: "活動網站整合 I'M MEME TIC!TOC! 的商品形象、廣告視覺與網頁內容，透過鮮明配色、產品特寫和節奏化版面，引導使用者瀏覽 campaign 訊息。",
+    details: [["Campaign UI","活動網站"],["Beauty Visual","美妝商品呈現"],["Advertising","主視覺延伸"]],
+    presentation: "作品以主視覺和網站畫面串連展示，可看見產品素材如何轉換為一致的活動頁面與宣傳語氣。"
+  },
+  "head-shoulders": {
+    directions: ["以品牌藍與清爽質感聚焦產品效益。", "使用產品及人物影像建立明確視覺動線。", "將活動訊息拆成容易掃讀的網頁內容區塊。"],
+    content: "網站以 head&shoulders 的品牌識別為基礎，整理商品、活動與溝通訊息，透過高對比色彩和清晰構圖，形成具有廣告感且容易閱讀的數位頁面。",
+    details: [["Brand Campaign","品牌活動"],["Web Layout","資訊區塊"],["Product Visual","商品溝通"]],
+    presentation: "專案展示活動主畫面與網頁應用，著重品牌色彩、人物素材與產品訊息在同一視覺系統中的整合。"
+  },
+  "chinese-new-year-2017": {
+    directions: ["以新年色彩與節慶符號營造歡樂氣氛。", "把傳統元素轉化為較現代的數位圖像。", "在裝飾性畫面中保留活動資訊的清楚層級。"],
+    content: "活動網站運用春節圖像、紅金色調與趣味構成，將年節氛圍延伸至網頁介面；內容安排兼顧節慶視覺的豐富度與資訊閱讀。",
+    details: [["Festival Visual","春節主題"],["Campaign Website","活動頁面"],["Illustration","節慶圖像"]],
+    presentation: "作品透過主視覺、圖像元素與網站畫面呈現完整節慶語氣，展現傳統題材在數位媒介中的重新詮釋。"
+  },
+  "oh-its-halloween": {
+    directions: ["以角色與場景建立具有故事性的萬聖節世界。", "控制大尺寸圖像的比例與空間觀看距離。", "運用深色、橘色與光影強化節慶氣氛。"],
+    content: "場景設計將萬聖節角色、夜間色調與趣味細節整合至實體環境，考量牆面尺度和觀者動線，使平面視覺進入空間後仍保有焦點與層次。",
+    details: [["Event Scene","節慶場景"],["Spatial Scale","空間尺度"],["Art Direction","角色與氛圍"]],
+    presentation: "作品以場景全貌與局部視覺展示空間效果，能看見圖像在實際環境中的尺寸、節奏與節慶感染力。"
+  },
+  "japan-endless-discovery": {
+    directions: ["以目的地影像喚起日本旅行的探索感。", "依地區與主題整理旅遊內容的閱讀順序。", "維持觀光 campaign 的品牌識別與資訊可讀性。"],
+    content: "活動網站把日本景點、旅行主題與資訊入口整合成具探索感的頁面，運用大幅影像和清楚分類，引導使用者從視覺印象進入目的地內容。",
+    details: [["Travel Website","日本旅遊內容"],["Destination Visual","景點影像"],["Content Structure","主題分類"]],
+    presentation: "專案以旅遊主視覺和網站區塊呈現內容編排，展現目的地影像如何帶動瀏覽節奏與 campaign 氣氛。"
+  },
+  "tigerair-nagoya": {
+    directions: ["結合航空品牌與名古屋地標建立目的地辨識。", "以輕快色彩傳達低門檻旅行的行動感。", "清楚配置航線、景點與活動訊息。"],
+    content: "網站圍繞虎航前往名古屋的旅遊情境，整合航空品牌、城市特色和行程靈感，透過活潑構圖讓交通資訊與目的地內容自然銜接。",
+    details: [["Airline Campaign","航空活動"],["Destination","名古屋旅遊"],["Web Visual","活動頁面"]],
+    presentation: "畫面並列航空元素、城市圖像與網站應用，呈現從航線溝通延伸至目的地探索的整體視覺。"
+  },
+  "explore-macau": {
+    directions: ["以城市景點與美食建立澳門旅遊印象。", "使用明亮圖像與色彩提升探索感。", "將多元旅遊內容整理為清楚的導覽入口。"],
+    content: "活動網站以澳門城市探索為主軸，透過景點、美食和文化素材組成豐富但有秩序的頁面，讓使用者能快速掌握不同旅行主題。",
+    details: [["Tourism Campaign","澳門旅遊"],["Content Navigation","主題導覽"],["Visual Collage","城市圖像"]],
+    presentation: "作品展示主視覺與內容型網站畫面，從城市素材的組合可看見 campaign 的活力及資訊層級。"
+  },
+  "talk-about-fashion": {
+    directions: ["以人物與時尚圖像建立走道的視覺節奏。", "依觀看距離調整標題、圖形與細節比例。", "讓連續牆面形成一致但不重複的敘事。"],
+    content: "走道牆面以 fashion 為主題，將大型人物、文字和圖形配置於長幅空間中；設計考量行進中的觀看方式，讓不同區段各自成為焦點。",
+    details: [["Wall Graphic","走道牆面"],["Fashion Visual","時尚影像"],["Wayfinding Rhythm","行進節奏"]],
+    presentation: "作品以空間模擬與牆面展開圖呈現，可看見視覺如何隨走道長度形成連續的品牌氛圍。"
+  },
+  "pets-playground": {
+    directions: ["以寵物角色與遊樂情境創造親切感。", "讓插畫細節適合近距離會議空間觀看。", "運用連續構圖串起不同牆面區段。"],
+    content: "會議室牆面把想像力轉化為寵物遊樂世界，透過角色、場景與趣味細節軟化工作空間，也讓每一面牆具有可被探索的小故事。",
+    details: [["Meeting Room","會議空間"],["Character Visual","寵物角色"],["Environmental Art","牆面敘事"]],
+    presentation: "作品展示圖像展開與空間應用，強調角色比例、牆面銜接及插畫進入辦公環境後的整體效果。"
+  },
+  "album-style-blog": {
+    directions: ["降低介面裝飾，讓照片成為內容主角。", "以相簿網格整理不同主題與圖片。", "維持導覽、標題及閱讀入口的簡潔性。"],
+    content: "部落格樣式以最少設計帶來最大內容提升，運用相簿式圖片編排、克制字體和留白，讓使用者先被影像吸引，再自然進入文章。",
+    details: [["Blog UI","部落格介面"],["Album Grid","相簿網格"],["Minimal Layout","精簡編排"]],
+    presentation: "作品以首頁與內容模組展示相簿式體驗，圖片比例與留白清楚呈現這套樣式的核心特色。"
+  },
+  "happix-wall": {
+    directions: ["以 Happix 角色傳達品牌文化與團隊個性。", "將插畫、文字與資訊融入辦公空間。", "依牆面尺寸規劃連續且容易閱讀的構圖。"],
+    content: "辦公室牆面透過 Happix 的角色世界串起品牌故事，結合插畫與圖文內容，使空間不只是裝飾，也成為團隊文化和訪客印象的一部分。",
+    details: [["Office Graphic","辦公室牆面"],["Illustration","角色插畫"],["Brand Culture","團隊文化"]],
+    presentation: "作品從平面圖像延伸至空間模擬，呈現角色、文字與牆面尺度共同形成的活潑辦公氛圍。"
+  },
+  "summer-hongkong": {
+    directions: ["以部落客內容提供具個人觀點的香港旅遊靈感。", "依景點與主題建立快速查找的資訊結構。", "使用鮮明旅遊影像維持夏季 campaign 的活力。"],
+    content: "PIXNET 與香港旅遊局合作，將部落客文章與旅遊資訊整理為活動網站，協助使用者快速認識香港景點與玩法，讓行程探索更直覺有趣。",
+    details: [["Tourism Website","香港旅遊局"],["Blogger Content","部落客合作"],["Information Design","旅遊資訊"]],
+    presentation: "作品以主視覺、內容入口及網站畫面呈現合作形式，能看見旅遊品牌與部落客內容如何整合成完整體驗。"
+  },
+  "waterfall-layout-blog": {
+    directions: ["以瀑布流容納不同尺寸與比例的內容。", "維持卡片間距及圖片節奏，避免畫面凌亂。", "讓使用者能持續向下探索更多文章。"],
+    content: "部落格樣式採用瀑布流版型，讓圖片與文章摘要依內容高度自然排列；介面降低固定框架感，適合大量、視覺導向的內容瀏覽。",
+    details: [["Masonry Layout","瀑布流版型"],["Content Discovery","內容探索"],["Responsive UI","彈性排列"]],
+    presentation: "作品透過長頁面與多張內容卡展示瀑布流效果，清楚呈現不同素材如何在同一網格中保持平衡。"
+  },
+  "stylish-blog": {
+    directions: ["以時尚編輯感調整字級、圖片與留白比例。", "建立首頁焦點與次要內容的清楚層級。", "讓視覺風格不影響文章的閱讀效率。"],
+    content: "此樣式從持續分析與調整出發，重新平衡部落格的圖片、標題與資訊密度，以較成熟的排版語氣提升內容質感和整體可讀性。",
+    details: [["Editorial UI","編輯式排版"],["Visual Hierarchy","內容層級"],["Blog Theme","樣式設計"]],
+    presentation: "作品以完整首頁與內容區塊呈現調整成果，重點落在圖文比例、字體層級與留白所形成的時尚感。"
+  },
+  "explore-more-blog": {
+    directions: ["跳脫傳統側欄框架，放大內容的閱讀空間。", "以現代網格整理文章分類與推薦內容。", "透過清楚入口鼓勵跨文章持續探索。"],
+    content: "Explore more 重新思考既有部落格框架，減少介面負擔並強化內容層級，使文章、圖片與推薦模組更容易被閱讀和延伸探索。",
+    details: [["Modern Blog","現代部落格"],["Navigation","內容導覽"],["Reading Flow","閱讀節奏"]],
+    presentation: "作品展示首頁、文章入口與延伸內容的編排，呈現簡化框架後更開放、清楚的閱讀體驗。"
+  },
+  "four-seasons-blog": {
+    directions: ["以四季色彩與影像創造不同情緒。", "在主題變化中維持固定的內容結構。", "加入視覺驚喜，同時保留操作與閱讀一致性。"],
+    content: "部落格樣式將春夏秋冬的氣氛帶入介面，以圖片、配色和細節變化增加新鮮感；核心網格保持一致，使主題轉換不影響內容使用。",
+    details: [["Seasonal Theme","四季視覺"],["Blog Layout","內容網格"],["Visual Variation","主題變化"]],
+    presentation: "作品以不同季節版本並列呈現，可比較色彩與影像改變時，介面架構如何維持一致。"
+  },
+  "pixnet-social-summit": {
+    directions: ["以社群連結和交流作為活動識別核心。", "建立可延伸至舞台、指標與印刷物的圖形系統。", "在大型展場中維持活動名稱與主訊息辨識度。"],
+    content: "首屆 PIXNET Social Summit 的視覺規劃涵蓋活動主識別與展場應用，透過一致的色彩、圖形及文字層級，串連線上宣傳與現場交流情境。",
+    details: [["Event Identity","活動識別"],["Exhibition","展場視覺"],["Graphic System","延伸圖形"]],
+    presentation: "作品從主視覺一路展示舞台與現場應用，呈現同一套識別在不同尺寸與空間中的延展方式。"
+  },
+  "pixnet-hackathon": {
+    directions: ["以程式、協作與速度感建立 Hackathon 語氣。", "統整網站與現場視覺，維持活動辨識。", "讓資訊在數位頁面及大型展板上都清楚易讀。"],
+    content: "第四屆 PIXNET HACKATHON 將活動網站、主視覺及展場設計整合為同一系統，以科技感圖形和明確色彩回應快速創作與團隊協作的活動精神。",
+    details: [["Hackathon UI","活動網站"],["Event Space","展場應用"],["Tech Visual","科技圖形"]],
+    presentation: "作品並列線上頁面與現場照片，能看見視覺系統如何跨越螢幕、舞台與活動物件保持一致。"
+  },
+  "triangle-ocean-world": {
+    directions: ["以三角幾何切割重組海洋景象。", "統一水體、天空與生物素材的色調和光源。", "在抽象構成中保留海洋世界的空間深度。"],
+    content: "影像後製將海洋素材與 Triangle Art 幾何語言結合，透過遮罩、切割和層次合成重塑自然畫面，形成介於真實與幻想之間的數位藝術。",
+    details: [["Triangle Art","幾何構成"],["Compositing","素材合成"],["Ocean Visual","海洋意象"]],
+    presentation: "完成畫面突出幾何切面與海洋空間的交錯，細節可看見素材邊緣、色調與景深的整合。"
+  },
+  "whale-under-the-sea": {
+    directions: ["以尺度對比強化鯨魚在海底世界的存在感。", "調整水下光線、霧氣與色彩形成深度。", "讓多個自然素材共享一致的環境氛圍。"],
+    content: "作品將鯨魚置入想像中的海底場景，透過素材合成、光束與藍綠色調建立寧靜的水下空間，重點在生物比例及環境光的自然銜接。",
+    details: [["Surreal Art","超現實場景"],["Underwater Light","水下光影"],["Scale","生物尺度"]],
+    presentation: "作品以完整奇想場景呈現，視覺焦點落在鯨魚、光束和海底層次共同形成的沉浸感。"
+  },
+  "rhinos-castle-world": {
+    directions: ["以不尋常的角色與場景組合創造敘事張力。", "校正素材透視與比例，使幻想空間仍具可信度。", "統一天空、建築與角色的光線方向。"],
+    content: "影像將犀牛與城堡結合成超現實世界，透過透視、遮罩和環境色調處理不同來源素材，使角色自然存在於具有故事感的幻想場景。",
+    details: [["Fantasy Composite","幻想合成"],["Perspective","透視比例"],["Atmosphere","場景氛圍"]],
+    presentation: "完成畫面著重角色與建築的尺度關係，從光影和空氣感可看見不同素材被整合為單一世界。"
+  },
+  "elk-in-the-cloud": {
+    directions: ["以雲層與麋鹿建立輕盈、安靜的主題。", "運用柔和光線與低彩度統整素材。", "保留大量空間，使主體呈現漂浮與夢境感。"],
+    content: "作品把麋鹿置於雲端景象中，以柔霧、逆光與細緻色調淡化現實邊界；構圖刻意保留呼吸感，形成帶有詩意的超現實畫面。",
+    details: [["Dreamscape","夢境場景"],["Soft Lighting","柔和光線"],["Photo Composite","影像合成"]],
+    presentation: "畫面以麋鹿和雲層的空間關係為核心，細膩的光線與留白共同呈現安靜而輕盈的情緒。"
+  },
+  "corona-waterfall": {
+    directions: ["以瀑布動勢呼應飲品清涼感。", "讓瓶身光線、反射與潮濕環境自然連接。", "透過尺度與位置維持產品的廣告焦點。"],
+    content: "商業影像把 Corona 產品置入瀑布環境，利用水流、霧氣與冷色光強化清爽印象；後製重點在瓶身材質、環境反射和場景動態的整合。",
+    details: [["Product Composite","產品合成"],["Water Motion","水流動勢"],["Advertising Visual","廣告影像"]],
+    presentation: "作品以產品與自然景觀的強烈組合呈現視覺衝擊，瓶身細節和水氣效果共同建立清涼氛圍。"
+  },
+  "luma": {
+    directions: ["從生活美學定位建立柔和而精緻的品牌語氣。", "以標誌、色彩與圖形形成一致識別。", "讓視覺元素能延伸至名片、包裝與數位內容。"],
+    content: "LUMA 露瑪生活美學的品牌規劃聚焦質感生活與女性美學，以簡潔識別、細膩配色和一致圖像語言，建立適合多種應用的品牌基礎。",
+    details: [["Lifestyle Brand","生活美學"],["Visual Identity","品牌識別"],["Brand Application","應用延伸"]],
+    presentation: "作品以標誌、配色與品牌物件情境展示整體形象，呈現識別在不同媒介中的一致質感。"
+  },
+  "bear-love-plant": {
+    directions: ["將植物與送禮意象轉化為親切的識別。", "以自然色彩和簡潔圖形傳達溫度感。", "讓標誌在名片等小尺寸應用中保持清楚。"],
+    content: "品牌設計圍繞植栽、禮物與人情溫度，透過易親近的名稱、圖形和自然配色建立記憶點，並將識別落實於名片等實際接觸物。",
+    details: [["Plant Brand","植栽品牌"],["Logo Design","標誌設計"],["Stationery","名片應用"]],
+    presentation: "作品以識別與名片實際效果呈現品牌個性，可看見自然元素如何被簡化為容易使用的視覺符號。"
+  },
+  "pixchelin": {
+    directions: ["以美食探索與餐廳推薦作為識別核心。", "結合 PIXNET 品牌關係與獨立個性。", "建立適合部落格、內容標籤及宣傳使用的圖形語言。"],
+    content: "痞其林是 PIXNET 旗下推廣美食的部落格品牌，希望協助使用者找到喜愛的餐廳。視覺以美食指南為出發點，整理標誌、配色和應用方式，塑造親切而易辨識的內容品牌。",
+    details: [["Food Media","美食內容品牌"],["Brand Identity","識別系統"],["Editorial Use","部落格應用"]],
+    presentation: "作品從標誌概念延伸到品牌應用，呈現美食探索的主題如何轉化為適合內容平台使用的視覺形象。"
+  },
+  "soyummy-brand": {
+    directions: ["以搜尋餐廳與發現美食建立 App 品牌概念。", "使用活潑色彩和圖形降低工具感。", "讓識別能延伸至啟動畫面、圖示與行銷素材。"],
+    content: "搜 Yummy app 的品牌視覺把餐廳搜尋功能轉化為較親切的美食探索體驗，透過標誌、色彩和行動介面元素，建立容易辨識的數位品牌。",
+    details: [["App Branding","行動品牌"],["Food Discovery","美食探索"],["Digital Assets","圖示與畫面"]],
+    presentation: "作品以品牌識別和 App 情境共同展示，說明視覺元素如何從標誌延伸到使用者接觸的數位畫面。"
+  },
+  "soyummy-app": {
+    directions: ["以搜尋、分類與位置資訊支援餐廳探索。", "優先呈現影響用餐選擇的關鍵內容。", "以行動裝置友善的區塊和操作維持瀏覽效率。"],
+    content: "SoYummy APP 聚焦協助使用者尋找餐廳，介面整理搜尋入口、餐廳圖片與基本資訊，讓使用者能快速比較不同選項並繼續查看感興趣的店家。",
+    details: [["Mobile UI","行動介面"],["Restaurant Search","餐廳搜尋"],["Information Card","店家資訊"]],
+    presentation: "作品透過多個 App 畫面呈現搜尋與瀏覽情境，可看見資訊卡片、影像和操作入口的整體關係。"
+  },
+  "pixgoods-rwd": {
+    directions: ["以商品圖片與分類建立電商瀏覽層級。", "依桌面與行動裝置調整欄數及內容優先序。", "延續 PIXgoods 品牌識別至購物介面。"],
+    content: "PIXgoods 電商 UI 將品牌視覺、商品分類與購物內容整合成響應式頁面，透過一致卡片、圖片比例和網格，讓不同裝置上的商品探索保持清楚。",
+    details: [["E-commerce UI","電商介面"],["Responsive Design","跨裝置版型"],["Product Grid","商品瀏覽"]],
+    presentation: "作品並列桌面與行動版本，呈現商品網格、導覽和品牌元素如何隨螢幕尺寸重新配置。"
+  }
+};
+
+window.additionalBehanceProjects.forEach(project => {
+  Object.assign(project, behanceProjectDetails[project.id]);
+});
