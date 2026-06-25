@@ -1,1 +1,244 @@
-Hello Design! My name is Horace , I am a Designer!
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Horace，Senior UI/UX & Web Designer。專注產品體驗、視覺系統與前端協作。">
+  <title>Horace — Senior UI/UX & Web Designer</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要內容</a>
+
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="#home" aria-label="Horace 首頁"><span class="brand-mark">H</span><span>Horace</span></a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">選單</button>
+      <nav class="site-nav" id="site-nav" aria-label="主要導覽">
+        <a href="#projects">精選案例</a>
+        <a href="#services">能力與服務</a>
+        <a href="#about">關於我</a>
+        <a href="#experience">經歷</a>
+        <a href="#contact">聯絡</a>
+      </nav>
+      <a class="button button-small nav-cta" href="#contact">討論合作</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Hello, I’m Horace · Taipei</p>
+          <h1>Senior UI/UX<br><span>&amp; Web Designer</span></h1>
+          <p class="hero-lead">我把複雜問題整理成清楚、可使用，也能真正落地的數位體驗。</p>
+          <p class="hero-support">從產品流程、介面系統到前端協作，協助團隊把設計意圖轉化為一致且可持續的產品。</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">查看精選案例</a>
+            <a class="button" href="#contact">討論合作</a>
+          </div>
+          <ul class="hero-facts" aria-label="專業摘要">
+            <li><strong>10+ 年</strong><span>跨產業設計經驗</span></li>
+            <li><strong>Product → Build</strong><span>從策略到落地協作</span></li>
+            <li><strong>中文／English／日本語</strong><span>跨文化溝通</span></li>
+          </ul>
+        </div>
+
+        <figure class="portrait reveal">
+          <img src="assets/generated/horace-portrait.png" alt="Horace 個人形象照">
+          <figcaption>
+            <span><strong>Open to collaborate</strong>Selected product projects</span>
+            <span class="status-dot" aria-hidden="true"></span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section featured-section" id="projects">
+      <div class="container">
+        <header class="section-intro reveal">
+          <div>
+            <p class="eyebrow">01 · Selected work</p>
+            <h2>先看設計如何解決問題。</h2>
+          </div>
+          <p>四個案例聚焦不同能力：產品流程、研究洞察、設計系統與複雜工作台。每個案例都說明限制、判斷與成果衡量方式。</p>
+        </header>
+
+        <div class="featured-list">
+          <article class="featured-project reveal">
+            <a class="project-image" href="cases/member-journey.html">
+              <img src="assets/generated/project-mobile.png" alt="會員任務體驗行動介面" loading="lazy">
+            </a>
+            <div class="project-copy">
+              <p class="project-meta"><span>Product Design</span><span>2026</span></p>
+              <h3><a href="cases/member-journey.html">會員任務體驗</a></h3>
+              <p>重新整理會員從註冊、探索到完成核心任務的流程，降低理解成本，讓下一步與狀態回饋更清楚。</p>
+              <ul class="project-tags"><li>Journey</li><li>Interaction</li><li>Prototype</li></ul>
+              <a class="text-link" href="cases/member-journey.html">閱讀案例 <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="featured-project reverse reveal">
+            <a class="project-image" href="cases/service-discovery.html">
+              <img src="assets/generated/project-research.png" alt="服務探索研究視覺" loading="lazy">
+            </a>
+            <div class="project-copy">
+              <p class="project-meta"><span>UX Research</span><span>2026</span></p>
+              <h3><a href="cases/service-discovery.html">服務探索研究</a></h3>
+              <p>透過訪談、旅程與問題聚類，辨識使用者在決策前後的資訊落差，將研究轉化為可執行的產品機會。</p>
+              <ul class="project-tags"><li>Interview</li><li>Synthesis</li><li>Strategy</li></ul>
+              <a class="text-link" href="cases/service-discovery.html">閱讀案例 <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="featured-project reveal">
+            <a class="project-image" href="cases/product-system.html">
+              <img src="assets/generated/project-system.png" alt="跨產品元件系統視覺" loading="lazy">
+            </a>
+            <div class="project-copy">
+              <p class="project-meta"><span>Design System</span><span>2025</span></p>
+              <h3><a href="cases/product-system.html">跨產品元件系統</a></h3>
+              <p>建立元件、狀態與響應規則，讓設計與工程團隊用一致語言協作，降低重複決策與維護成本。</p>
+              <ul class="project-tags"><li>Tokens</li><li>Components</li><li>Governance</li></ul>
+              <a class="text-link" href="cases/product-system.html">閱讀案例 <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="featured-project reverse reveal">
+            <a class="project-image" href="cases/operations-console.html">
+              <img src="assets/generated/project-dashboard.png" alt="營運工作台儀表板視覺" loading="lazy">
+            </a>
+            <div class="project-copy">
+              <p class="project-meta"><span>Product Design</span><span>2025</span></p>
+              <h3><a href="cases/operations-console.html">營運工作台</a></h3>
+              <p>整合高頻任務、異常狀態與快速操作，協助營運人員在資訊密集情境中快速判讀並完成工作。</p>
+              <ul class="project-tags"><li>Dashboard</li><li>Data UI</li><li>Testing</li></ul>
+              <a class="text-link" href="cases/operations-console.html">閱讀案例 <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="container">
+        <header class="section-intro reveal">
+          <div>
+            <p class="eyebrow">02 · Capabilities</p>
+            <h2>設計是核心，技術讓它真正發生。</h2>
+          </div>
+          <p>依專案需求切換研究、設計系統、視覺與實作協作，而不是把工具清單當成能力本身。</p>
+        </header>
+
+        <div class="capability-grid">
+          <article class="capability reveal">
+            <p class="capability-number">01</p>
+            <h3>Product Design</h3>
+            <p>梳理需求、資訊架構、流程與互動，透過原型和測試降低開發前的不確定性。</p>
+            <ul><li>UX strategy & research</li><li>Web／App UI design</li><li>Prototype & usability</li></ul>
+          </article>
+          <article class="capability reveal">
+            <p class="capability-number">02</p>
+            <h3>Visual Systems</h3>
+            <p>建立能跨頁面與團隊延伸的視覺語言，讓品牌、介面和內容保持一致。</p>
+            <ul><li>Design system</li><li>Responsive framework</li><li>Brand & campaign visual</li></ul>
+          </article>
+          <article class="capability reveal">
+            <p class="capability-number">03</p>
+            <h3>Front-end & AI</h3>
+            <p>理解 HTML、CSS、JavaScript 與生成式 AI，讓設計更容易驗證、溝通並交付。</p>
+            <ul><li>Design-to-code collaboration</li><li>Interactive prototype</li><li>AI-assisted workflow</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="reveal">
+          <p class="eyebrow">03 · About</p>
+          <h2>跨越產品、視覺與技術的設計者。</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p class="lead">我是 Horace，一位專注數位產品與網頁體驗的 Senior UI/UX &amp; Web Designer。</p>
+          <p>十多年來參與媒體、金融與數位產品專案。我擅長在商業需求、使用者問題與技術限制之間建立共同語言，從視覺方向、互動流程一路協作到響應式實作。</p>
+          <p>近年也把生成式 AI 納入研究、視覺探索與原型流程；重點不是追逐工具，而是更快提出可討論、可驗證的方案。</p>
+          <a class="text-link" href="https://www.cake.me/resumes/lan-horace" target="_blank" rel="noopener">查看完整履歷 <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <header class="section-intro compact reveal">
+          <div>
+            <p class="eyebrow">04 · Experience</p>
+            <h2>從品牌視覺走向完整產品體驗。</h2>
+          </div>
+        </header>
+
+        <ol class="timeline">
+          <li class="reveal"><p class="timeline-date">2020.05 — Present</p><div><p class="timeline-company">Xtars Live · 藝想科技</p><h3>UI/UX Designer</h3><p>主導網站與 App 的介面及體驗設計，建立可持續維護的產品規範，並與產品及工程團隊協作落地。</p></div></li>
+          <li class="reveal"><p class="timeline-date">2019.09 — 2020.03</p><div><p class="timeline-company">E.SUN Bank · 玉山銀行</p><h3>Senior Web Designer</h3><p>負責活動與響應式網站設計，並主導數位品牌 e.Fingo 的 CI 視覺系統。</p></div></li>
+          <li class="reveal"><p class="timeline-date">2018.06 — 2019.05</p><div><p class="timeline-company">Osaka · Japan</p><h3>Working Holiday &amp; Barista</h3><p>累積跨文化服務與協作經驗，於大阪取得 JLPT N3，拓展語言與設計視野。</p></div></li>
+          <li class="reveal"><p class="timeline-date">2013.07 — 2018.04</p><div><p class="timeline-company">PIXNET · 優像數位媒體</p><h3>Senior Web Designer</h3><p>參與品牌活動、部落格產品與大型合作專案，建立視覺規範並持續改善內容體驗。</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section archive-section" id="archive">
+      <div class="container">
+        <header class="section-intro reveal">
+          <div>
+            <p class="eyebrow">05 · More work</p>
+            <h2>更多專案與能力切面。</h2>
+          </div>
+          <p>快速瀏覽其他專案類型。需要完整內容時，我可以依面談或合作需求補充細節。</p>
+        </header>
+
+        <div class="filter-bar" role="group" aria-label="作品分類">
+          <button type="button" data-filter="all" aria-pressed="true">全部</button>
+          <button type="button" data-filter="product" aria-pressed="false">產品設計</button>
+          <button type="button" data-filter="research" aria-pressed="false">研究</button>
+          <button type="button" data-filter="system" aria-pressed="false">設計系統</button>
+        </div>
+
+        <div class="archive-list" aria-live="polite">
+          <article data-category="product"><p><span>2025</span><span>Mobile UX</span></p><h3>預約流程優化</h3><p>搜尋、選擇與確認流程</p></article>
+          <article data-category="research"><p><span>2025</span><span>UX Research</span></p><h3>新手啟用診斷</h3><p>首次使用阻礙與產品假設</p></article>
+          <article data-category="system"><p><span>2024</span><span>Design System</span></p><h3>表單與錯誤規範</h3><p>輸入、驗證與錯誤訊息</p></article>
+          <article data-category="product"><p><span>2024</span><span>Data UI</span></p><h3>資料洞察介面</h3><p>可比較、可追蹤的洞察工作區</p></article>
+          <article data-category="product"><p><span>2024</span><span>Web Experience</span></p><h3>內容管理工具</h3><p>草稿、審核與發布協作</p></article>
+          <article data-category="research"><p><span>2024</span><span>UX Research</span></p><h3>客服問題地圖</h3><p>客服紀錄分類與改善優先序</p></article>
+          <article data-category="system"><p><span>2023</span><span>Responsive</span></p><h3>響應式版型規則</h3><p>內容密度、斷點與元件重排</p></article>
+          <article data-category="product"><p><span>2023</span><span>Product Design</span></p><h3>帳戶安全中心</h3><p>風險分級與安全設定引導</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <p class="eyebrow">06 · Contact</p>
+          <h2>有想解決的問題嗎？</h2>
+        </div>
+        <div class="contact-copy reveal">
+          <p class="lead">如果你正在找 UI/UX 設計夥伴、規劃網站改版，或想把想法快速做成可討論的原型，歡迎告訴我專案背景與目標。</p>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:bluehorace.design@gmail.com">寄 Email 給我</a>
+            <a class="button" href="https://www.cake.me/resumes/lan-horace" target="_blank" rel="noopener">查看履歷</a>
+          </div>
+          <a class="email-link" href="mailto:bluehorace.design@gmail.com">bluehorace.design@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><span>© 2026 Horace</span><span>Senior UI/UX &amp; Web Designer</span></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
