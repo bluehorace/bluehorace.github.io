@@ -1,10 +1,13 @@
 const menuButton = document.querySelector(".menu-button");
 const nav = document.querySelector(".site-nav");
+const navInner = document.querySelector(".nav-inner");
+const navLinks = [...document.querySelectorAll(".site-nav a[href^='#']")];
 
 if (menuButton && nav) {
   const closeMenu = () => {
     menuButton.setAttribute("aria-expanded", "false");
-    menuButton.textContent = "選單";
+    menuButton.setAttribute("aria-label", "開啟選單");
+    menuButton.classList.remove("is-open");
     nav.classList.remove("open");
     document.body.classList.remove("menu-open");
   };
@@ -12,7 +15,8 @@ if (menuButton && nav) {
   menuButton.addEventListener("click", () => {
     const open = menuButton.getAttribute("aria-expanded") === "true";
     menuButton.setAttribute("aria-expanded", String(!open));
-    menuButton.textContent = open ? "選單" : "關閉";
+    menuButton.setAttribute("aria-label", open ? "開啟選單" : "關閉選單");
+    menuButton.classList.toggle("is-open", !open);
     nav.classList.toggle("open", !open);
     document.body.classList.toggle("menu-open", !open);
   });
@@ -22,6 +26,41 @@ if (menuButton && nav) {
     if (event.key === "Escape") closeMenu();
   });
 }
+
+const sectionTargets = [...document.querySelectorAll("main section[id]")];
+function setActiveNav(id) {
+  navLinks.forEach(link => {
+    const active = link.getAttribute("href") === `#${id}`;
+    link.classList.toggle("is-active", active);
+    if (active) link.setAttribute("aria-current", "page");
+    else link.removeAttribute("aria-current");
+  });
+}
+
+if (sectionTargets.length && "IntersectionObserver" in window) {
+  setActiveNav("home");
+  const navObserver = new IntersectionObserver(entries => {
+    const visible = entries
+      .filter(entry => entry.isIntersecting)
+      .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+    if (visible?.target?.id) setActiveNav(visible.target.id);
+    entries.forEach(entry => entry.target.classList.toggle("in-view", entry.isIntersecting));
+  }, { rootMargin: "-24% 0px -52% 0px", threshold: [0.12, 0.28, 0.48] });
+  sectionTargets.forEach(section => navObserver.observe(section));
+} else {
+  setActiveNav("home");
+  sectionTargets.forEach(section => section.classList.add("in-view"));
+}
+
+navInner?.addEventListener("pointermove", event => {
+  const rect = navInner.getBoundingClientRect();
+  const x = ((event.clientX - rect.left) / rect.width) * 100;
+  navInner.style.setProperty("--nav-glass-x", `${x}%`);
+}, { passive: true });
+
+navInner?.addEventListener("pointerleave", () => {
+  navInner.style.setProperty("--nav-glass-x", "50%");
+}, { passive: true });
 
 const workGrid = document.querySelector(".work-grid");
 const featuredList = document.querySelector(".featured-list");
@@ -169,7 +208,7 @@ window.PortfolioContent.load(renderPortfolio);
  */
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const finePointer = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
-const liquidTargets = [...document.querySelectorAll(".liquid-card, .liquid-filter")];
+const liquidTargets = [...document.querySelectorAll(".liquid-card, .liquid-filter, .liquid-nav, .glass-surface")];
 
 function smoothStep(a, b, value) {
   const t = Math.max(0, Math.min(1, (value - a) / (b - a)));
@@ -232,11 +271,14 @@ function createLiquidGlass(element, index) {
     svg.innerHTML = `<defs><filter id="${filterId}" x="0" y="0" width="${width}" height="${height}"
       filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
       <feImage href="${canvas.toDataURL()}" width="${width}" height="${height}" result="map" />
-      <feDisplacementMap in="SourceGraphic" in2="map" scale="24" xChannelSelector="R" yChannelSelector="G" />
+      <feDisplacementMap in="SourceGraphic" in2="map" scale="34" xChannelSelector="R" yChannelSelector="G" />
     </filter></defs>`;
     document.body.appendChild(svg);
     displacement = svg.querySelector("feDisplacementMap");
-    element.style.backdropFilter = `url(#${filterId}) blur(7px) saturate(1.3) contrast(1.06)`;
+    const filterValue = element.classList.contains("liquid-nav")
+      ? `url(#${filterId}) blur(7px) saturate(1.4)`
+      : `url(#${filterId}) blur(3px) saturate(1.65) contrast(1.12)`;
+    element.style.backdropFilter = filterValue;
   }
 
   const resizeObserver = new ResizeObserver(() => {
@@ -257,13 +299,13 @@ function createLiquidGlass(element, index) {
     element.style.setProperty("--glass-y", `${y}%`);
     if (displacement) {
       const distance = Math.hypot(x - 50, y - 50) / 70;
-      displacement.setAttribute("scale", String(22 + Math.min(1, distance) * 7));
+      displacement.setAttribute("scale", String(30 + Math.min(1, distance) * 12));
     }
   }, { passive: true });
   element.addEventListener("pointerleave", () => {
     element.style.setProperty("--glass-x", "50%");
     element.style.setProperty("--glass-y", "25%");
-    displacement?.setAttribute("scale", "24");
+    displacement?.setAttribute("scale", "34");
   }, { passive: true });
   buildFilter();
 }
