@@ -1,7 +1,11 @@
 const SPREADSHEET_ID = "1nMFCiGbw4tPGBrLoRHNU3-lUk1m5NiI2HPknMqG4MxM";
 const SHEET_NAME = "Portfolio Projects";
 
-function doGet() {
+function doGet(event) {
+  if (event && event.parameter && event.parameter.dataset === "pricing") {
+    return doGetPricing();
+  }
+
   const sheet = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName(SHEET_NAME);
   if (!sheet) {
     return jsonResponse({ version: new Date().toISOString(), projects: [] });

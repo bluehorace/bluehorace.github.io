@@ -1,0 +1,65 @@
+{
+  "version": "fallback-2026-07-01",
+  "pricing": [
+    {
+      "published": true,
+      "sort_order": 1,
+      "category": "Website",
+      "service_name": "品牌形象網站設計",
+      "subtitle": "適合個人品牌、作品集、形象官網與活動 landing page。",
+      "price_from": 38000,
+      "price_to": 78000,
+      "price_unit": "project",
+      "description": "從內容層級、視覺方向到響應式頁面設計，協助把品牌訊息整理成清楚且具記憶點的網站體驗。",
+      "deliverables": "網站資訊架構; 首頁與內頁版型; RWD 視覺設計; 基礎前端切版建議",
+      "timeline": "2–5 週",
+      "note": "實際金額依頁面數量、內容狀態與是否需要前端實作調整。",
+      "cta_label": "討論網站需求"
+    },
+    {
+      "published": true,
+      "sort_order": 2,
+      "category": "UI/UX",
+      "service_name": "產品介面與流程優化",
+      "subtitle": "適合既有產品改版、App / Web dashboard、流程體驗整理。",
+      "price_from": 45000,
+      "price_to": 120000,
+      "price_unit": "project",
+      "description": "針對核心流程、資訊架構與介面一致性進行整理，產出可交付給產品與工程團隊的 UI 設計方案。",
+      "deliverables": "流程盤點; Wireframe; UI mockup; 元件與狀態整理",
+      "timeline": "3–8 週",
+      "note": "若包含完整 design system 或多角色流程，會另行拆分階段報價。",
+      "cta_label": "討論 UI 專案"
+    },
+    {
+      "published": true,
+      "sort_order": 3,
+      "category": "Brand",
+      "service_name": "品牌識別與視覺系統",
+      "subtitle": "適合新品牌、子品牌、活動識別與數位應用延伸。",
+      "price_from": 30000,
+      "price_to": 90000,
+      "price_unit": "project",
+      "description": "建立能延伸到網站、社群與商業素材的視覺語言，包含識別方向、色彩、字體與基礎應用規範。",
+      "deliverables": "Logo / 標誌方向; 色彩與字體; 基礎視覺規範; 數位應用示意",
+      "timeline": "2–6 週",
+      "note": "不含大量印刷品完稿、商標查核或品牌策略研究。",
+      "cta_label": "討論品牌需求"
+    },
+    {
+      "published": true,
+      "sort_order": 4,
+      "category": "Campaign",
+      "service_name": "活動視覺與行銷素材",
+      "subtitle": "適合 campaign 主視覺、社群素材、banner 與活動頁視覺延伸。",
+      "price_from": 18000,
+      "price_to": 60000,
+      "price_unit": "project",
+      "description": "將活動概念轉化為主視覺與可延伸素材，讓不同觸點保有一致的辨識度與溝通節奏。",
+      "deliverables": "Key visual; 社群與廣告版型; 活動頁視覺方向; 素材輸出規格",
+      "timeline": "1–4 週",
+      "note": "大量尺寸輸出、攝影、插畫或動態製作可另行估價。",
+      "cta_label": "討論活動視覺"
+    }
+  ]
+}

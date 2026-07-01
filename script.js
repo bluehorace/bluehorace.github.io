@@ -180,6 +180,51 @@ function renderPortfolio(payload, source) {
   setupRevealAnimations();
 }
 
+function formatPrice(plan) {
+  const formatter = new Intl.NumberFormat("zh-TW");
+  const from = Number(plan.price_from) || 0;
+  const to = Number(plan.price_to) || 0;
+  if (from && to && to > from) return `NT$ ${formatter.format(from)}–${formatter.format(to)}`;
+  if (from) return `NT$ ${formatter.format(from)} 起`;
+  if (to) return `NT$ ${formatter.format(to)}`;
+  return "依需求報價";
+}
+
+function renderPricing(payload, source) {
+  document.documentElement.dataset.pricingSource = source;
+  const pricingGrid = document.querySelector("[data-pricing-grid]");
+  const sourceLabel = document.querySelector("[data-pricing-source]");
+  if (sourceLabel) {
+    const label = source === "remote" ? "Google Sheet 即時資料" : source === "cache" ? "瀏覽器快取資料" : "本地備份資料";
+    sourceLabel.textContent = `資料來源：${label} · ${payload.version}`;
+  }
+  if (!pricingGrid) return;
+
+  pricingGrid.replaceChildren(...payload.pricing.map(plan => {
+    const article = document.createElement("article");
+    article.className = "pricing-card liquid-card reveal";
+    const deliverables = plan.deliverables.length
+      ? plan.deliverables.map(item => `<li>${item}</li>`).join("")
+      : "<li>依專案需求確認交付內容</li>";
+    article.innerHTML = `
+      <p class="pricing-card-meta">${plan.category}</p>
+      <h3>${plan.service_name}</h3>
+      <p class="pricing-card-subtitle">${plan.subtitle || ""}</p>
+      <p class="pricing-price">${formatPrice(plan)}${plan.price_unit ? `<span> / ${plan.price_unit}</span>` : ""}</p>
+      <p>${plan.description}</p>
+      <ul>${deliverables}</ul>
+      <dl class="pricing-card-details">
+        ${plan.timeline ? `<div><dt>時程</dt><dd>${plan.timeline}</dd></div>` : ""}
+        ${plan.note ? `<div><dt>備註</dt><dd>${plan.note}</dd></div>` : ""}
+      </dl>
+      <a class="text-link" href="mailto:bluehorace.design@gmail.com?subject=${encodeURIComponent(plan.service_name + " 報價諮詢")}">${plan.cta_label || "討論合作"} <span aria-hidden="true">→</span></a>
+    `;
+    return article;
+  }));
+  pricingGrid.setAttribute("aria-busy", "false");
+  setupRevealAnimations();
+}
+
 filterButtons.forEach(button => {
   button.addEventListener("click", () => {
     currentFilter = button.dataset.filter;
@@ -199,7 +244,12 @@ workToggle?.addEventListener("click", () => {
 });
 
 setupRevealAnimations();
-window.PortfolioContent.load(renderPortfolio);
+if (window.PortfolioContent && (workGrid || featuredList)) {
+  window.PortfolioContent.load(renderPortfolio);
+}
+if (window.PricingContent && document.querySelector("[data-pricing-grid]")) {
+  window.PricingContent.load(renderPricing);
+}
 
 /*
  * Rounded-rectangle SVG displacement map adapted from
